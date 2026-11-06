@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=61.0", "cmake>=3.24"]
+requires = ["setuptools>=84.1.0", "cmake>=3.24"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -41,13 +41,13 @@ dependencies = [
     "llama-index-embeddings-huggingface>=0.5.5",
     # Other dependencies
     "ipykernel==6.29.5",
-    "msgpack>=1.1.1",
+    "msgpack>=1.2.3",
     "mlx>=0.26.3; sys_platform == 'darwin' and platform_machine == 'arm64'",
     "mlx-lm>=0.26.0; sys_platform == 'darwin' and platform_machine == 'arm64'",
     "psutil>=5.8.0",
     "pybind11>=3.0.0",
     "pathspec>=0.12.1",
-    "nbconvert>=7.16.6",
+    "nbconvert>=7.17.2",
     "gitignore-parser>=0.1.12",
     # AST-aware code chunking dependencies
     "astchunk>=0.1.0",
